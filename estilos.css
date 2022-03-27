@@ -239,6 +239,36 @@ h3:hover{
 /*desarrollo section*/
 .desarrollo-section{
     display: none;
+    flex-direction: column;
+}
+
+.desarrollo h1{
+    text-align: center;
+    margin-bottom: 10px;
+    color: #242424;
+}
+
+.desarrollo ul{
+    width: 400px;
+    height: auto;
+    background-color: rgba(0,0,0,0.5);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    list-style: none;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.desarrollo ul li a{
+    text-decoration: none;
+    color: rgb(233, 233, 233);
+    line-height: 30px;
+    font-size: 17px;
+}
+
+.desarrollo ul li a:hover{
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
 }
 
 
@@ -317,5 +347,21 @@ h3:hover{
     .conoceme-main-container>img{
         width: 100%;
         margin-left: 0px;
+    }
+
+    /*Desarrollo*/
+    .desarrollo ul{
+        width: 85vw;
+        height: 200px;
+        text-align: center;
+    }
+    
+    .desarrollo ul li a{
+        line-height: 40px;
+        font-size: 21px;
+    }
+
+    .desarrollo ul li a:hover{
+        font-size: 21
     }
 }
